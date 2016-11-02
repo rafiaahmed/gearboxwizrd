@@ -9,7 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-
     <title>Gearbox Wizard | Rafi Ahmed</title>
 
     <!-- Bootstrap Core CSS -->
@@ -42,7 +41,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Gearbox Wizard</a>
+                <a class="navbar-brand" href="index.html">Gearbox Wizard</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,8 +55,9 @@
                     </li>
                     <li class="page-scroll">
                         <a href="#calculations">Calculations</a>
+                    </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#About">About</a>
                     </li>
                 </ul>
             </div>
@@ -68,25 +68,88 @@
 
     <!-- Header -->
     <header>
+		<div class="container">
+<!--             <div class="row"> -->
+<!--                 <div class="col-lg-12"> -->
+<!-- 				    <div class="intro-text"> -->
+<!--                         <span class="name">Welcome to Gearbox Wizard</span> -->
+<!--                         <span class="skills">Simple gear calculations for FRC teams</span> -->
+<!--                     </div> -->
+<!--                     <img class="img-responsive" src="img/gear.png" alt=""> -->
+<!--                     <div class="intro-text"> -->
+<!--                         <span class="name">Start Bootstrap</span> -->
+<!-- 						<hr class="star-light"> -->
+<!--                         <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span> -->
+<!--                     </div> -->
+<!--                 </div> -->
+				<div class="row">
+					<div class="intro-text">
+                        <span class="name">Requirements</span>
+                        <p class="help-block text-danger "></p>
+                    </div>
+				</div>
+				<div class="row text-left">
+					<div class="col-lg-6 text-left">
+						<div class="intro-text">
+	                        <p class="text-right skills">What motor do you want to use?</span>
+	                    </div>
+	                 </div>
+	                 <div class="col-lg-6">
+						<div class="dropdown">
+						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Motor
+						  <span class="caret"></span></button>
+						  <ul class="dropdown-menu text-right">
+						    <li><a href="#">775pro</a></li>
+						    <li><a href="#">CIM</a></li>
+						    <li><a href="#">MiniCIM</a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+				<div class="row text-left">
+					<div class="col-lg-6 text-left">
+						<div class="intro-text">
+	                        <p class="text-right skills">How many motors do you want to use?</p>
+	                    </div>
+	                 </div>
+	                 <div class="col-lg-6">
+						<div class="dropdown">
+						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Number of Motors
+						  <span class="caret text-right"></span></button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">1</a></li>
+						    <li><a href="#">2</a></li>
+						    <li><a href="#">3</a></li>
+						  </ul>
+						</div>
+				</div>
+				</div>
+				<div class="row text-left">
+					<div class="col-lg-6 text-left">
+						<div class="intro-text">
+	                        <p class="text-right skills">What is your defining requirement?</p>
+	                    </div>
+	                 </div>
+	                 <div class="col-lg-6">
+						<div class="dropdown">
+						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Defining Requirement
+						  <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">Ratio</a></li>
+						    <li><a href="#">Output RPM</a></li>
+						    <li><a href="#">Output Torque</a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+        </div>
+    </header>
+
+    <!-- Gears Grid Section -->
+    <section id="gears">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-				    <div class="intro-text">
-                        <span class="name">Welcome to Gearbox Wizard</span>
-                    </div>
-                    <img class="img-responsive" src="img/gear.png" alt="">
-                    <div class="intro-text">
-						<hr class="star-light">
-                        <span class="skills">Simple gear calculations for FRC teams</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header><!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
                     <hr class="star-primary">
                 </div>
@@ -155,34 +218,34 @@
             </div>
         </div>
     </section>
-    <!-- About Section -->
+
+    <!-- Calculations Section -->
     <section class="success" id="calculations">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>Calculator</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Gearbox Wizard will let you input motors and select a ratio, output rpm, or output torque. It will then spit out a table of what gears to use in what stage. All gears are from AndyMark, Vex, and WC Products.</p>
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>You will be able to use this tool to design custom gearboxes for your robot and better address your robots requirements.</p>
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="calculator.html" class="btn btn-lg btn-outline">
-                       Go to Calculator
-                       </a>
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- About Section -->
     <section id="About">
-    <!-- Contact Section -->
-    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
